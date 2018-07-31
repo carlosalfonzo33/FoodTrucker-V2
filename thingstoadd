@@ -1,0 +1,37 @@
+------LISTVIEW------
+
+sort results by?
+	rating then name
+
+possibly link to yelp api to get more information about food carts?
+	reviews
+	pictures
+	website
+
+when page is loaded, display food carts that are close to users location , then change if user searches
+
+assessors block addresses? maybe get address back from google maps for those ones
+
+
+-----google maps------
+see if we can remove the prompt on window load and just automatically load 
+
+
+
+
+------firebase databasing-------
+
+save users favorite trucks 
+
+
+
+
+
+
+
+
+-----research an api to use instead of yelp api
+
+zomato api key 
+
+5bcf346ea4e8839715a74ef34753945b

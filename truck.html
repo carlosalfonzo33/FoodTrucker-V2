@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>SF FoodTruckr</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <!-- Compiled and minified MATERIALIZE CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/css/materialize.min.css">
+  <!-- Compiled and minified MATERIALIZE JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/js/materialize.min.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body id="truckBody">
+
+
+
+
+<!--Navbar-->
+<nav id="truckNav" class="teal container">
+    <!-- <div class="nav-wrapper container"> -->
+      <a class="brand-logo" href = "index.html">SF Foodtruckr</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <div class="search-wrapper card">
+            <input class="searchInput" type="search" id="food-input">
+            <a id="food-search" class="waves-effect waves-light btn"><i id="searchIcon" class="material-icons">search</i></a>
+        </div>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+
+<div class = "loginInfo"></div>
+        <button data-target="modal2" class="btn modal-trigger showFavorites">My Favorites</button>
+
+        <!-- Dropdown Trigger -->
+        <button class='dropdown-button btn local' href='#' data-activates='dropdown1'>Local</button>
+        <!-- Dropdown Structure -->
+        <ul id='dropdown1' class='dropdown-content'>
+          <li><a href="https://offthegrid.com/" target = "_blank">Off the Grid</a></li>
+          <li><a href="https://sparksocialsf.com/" target= "_blank">Spark Social</a></li>
+          <!-- <li><a href="#!">three</a></li>
+          <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
+          <li><a href="#!"><i class="material-icons">cloud</i>five</a></li> -->
+        </ul>
+        <button class = "waves-effect waves-light btn logOut">Log Out</a></button>
+      </ul>
+
+      <!-- hamburger -->
+
+       <ul class="side-nav" id="mobile-demo">
+    <button data-target="modal2" class="btn modal-trigger showFavorites">My Favorites</button>
+
+        <!-- Dropdown Trigger -->
+        <li><a class='dropdown-button btn' href='#' data-activates='dropdown2'>Local</a></li>
+        <!-- Dropdown Structure -->
+        <ul id='dropdown2' class='dropdown-content'>
+          <li><a href="https://offthegrid.com/" target = "_blank">Off the Grid</a></li>
+          <li><a href="https://sparksocialsf.com/" target= "_blank">Spark Social</a></li>
+          <!-- <li><a href="#!">three</a></li>
+          <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
+          <li><a href="#!"><i class="material-icons">cloud</i>five</a></li> -->
+        </ul>
+
+
+        <button class = "waves-effect waves-light btn logOut">Log Out</a></button>
+      </ul>
+      </ul>
+    <!-- </div> -->
+  </nav>
+  <!--Header-->
+
+  <!-- <div class="search-wrapper card">
+    <input class="searchInput" type="search" id="food-input">
+    <a id="food-search" class="waves-effect waves-light btn"><i id="searchIcon" class="material-icons">search</i></a>
+  </div> -->
+
+  <div class="row">
+
+  <div id="map" class="col s6"></div>
+  <!-- </div> -->
+
+  <!-- list of food trucks -->
+  <div id="right" class="col s6">
+
+
+  <table class="table highlight truckTable">
+    <thead>
+      <tr>
+        <h4 id="tableTitle">Trucks Near You</h1>
+      </tr>
+    </thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody class = "data">
+  </tbody>
+  </table>
+  </div>
+</div><!--Row endtag-->
+</div><!--container endtag-->
+
+
+<!--MODAL-->
+<!-- The Modal -->
+<div id="modal2" class="modal">
+  <div class="modal-content favoriteTrucks">
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <h1>Favorite Trucks</h1>
+        </tr>
+
+      </thead>
+    <tbody class = "modal-favorites">
+    </tbody>
+  </div>
+</div>
+
+
+
+
+  <!-- Latest compiled and minified JavaScript -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.1.2/firebase.js"></script>
+  <script src="assets/javascript/app.js"></script>
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjYcWNC726GLIAIvAAqO6pZGvmo9W-Hg4&callback=initMap">
+</script>
+</body>

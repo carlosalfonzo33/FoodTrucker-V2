@@ -1,0 +1,302 @@
+
+
+.introBody {
+  background-image: url(../Images/street-food-burger.jpg);
+}
+
+#truckBody {
+  background-image: url(../Images/italian-street-food.jpg);
+}
+
+.introNav {
+  width: 60%;
+  height: 150px;
+  margin: 0 auto;
+  background-color: maroon;
+  color: white;
+  border-radius: 75px;
+}
+
+.iHeaderText {
+  line-height: 164px;
+  /*text-align: left;*/
+  margin-left: 55px;
+  font-family: 'Baloo Bhaina', cursive;
+  font-size: 80px;
+}
+
+.iconDiv {
+  float: right;
+  /*margin-right: 40px;*/
+  position: relative;
+  bottom: 146px;
+  right: 40px;
+  background-color: white;
+  height: 90px;
+  width: 90px;
+  border-radius: 75px;
+}
+
+#landingPageNav {
+  height: 150px;
+  width: 90%;
+  border-radius: 80px;
+  margin: 0 auto;
+  background-color: teal;
+  position: relative;
+    top: 20px;
+}
+
+.upperLanding {
+  /*background-color: white;*/
+  /*background-image: url(../Images/fries.jpg);*/
+
+}
+
+.lowerLanding {
+  height: 350px;
+  background-color: teal;
+
+}
+
+.loginDiv {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.loginButton {
+  text-align: center;
+}
+
+.logOut{
+  margin-left:20px;
+}
+.sendFavorite {
+  font-size: 25px;
+}
+
+#gLogin {
+margin-left: 200px;
+font-size: 11px;
+}
+
+#noLogin {
+margin-right: 200px;
+font-size: 11px;
+}
+
+.localLogin {
+  font-size: 11px;
+}
+
+.navHeader {
+  margin-left: 20px;
+}
+
+.nav-wrapper {
+  text-align: center;
+  line-height: 100px;
+}
+
+.truckTable {
+  overflow: auto;
+}
+
+.nav-mobile {
+  margin-right: 10px;
+}
+
+.search-wrapper {
+  width: 300px;
+  /*position: relative;
+  left: 340px;
+  bottom: 80px;*/
+  background-color: lightgrey;
+}
+
+.card {
+  height: 46px;
+  position: relative;
+  top: 20px;
+  display:inline-block;
+  margin-top:30px;
+}
+
+#searchIcon {
+position: relative;
+right: 9px;
+}
+
+#food-search {
+  position: relative;
+  bottom: 128px;
+  left: 222px;
+  width: 60px;
+}
+
+#food-input {
+  position: relative;
+  bottom: 29px;
+  left: 5px;
+  width: 290px;
+}
+
+.searchInput {
+  color: black;
+}
+
+#tableTitle {
+  color: wheat;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+
+
+/*.searchField {
+  display: inline-block;
+}*/
+
+#map {
+  height: 400px;
+  width: 45%;
+  border-style: solid;
+  border-color: teal;
+  border-width: 3px;
+  margin-top: 40px;
+  margin-left: 60px;
+  padding: 5px;
+  position: fixed !important;
+ }
+
+ /*.sticky-block {
+   max-width: 585px;
+ }*/
+
+#truckNav {
+  height: 150px;
+  line-height: 100px;
+  width: 100%;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 90px;
+  position: relative;
+  top: 16px;
+}
+
+#mapContainer {
+  position: fixed;
+}
+
+.sendFavorite {
+  margin: 0 auto;
+  margin: 10px;
+}
+
+#right {
+  position: relative;
+  right: 61px;
+  top: 40px;
+  float: right;
+  width: 572px;
+  /* margin-right: 25px; */
+  background-color: teal;
+  /* border-radius: 15px; */
+}
+
+#nav-mobile {
+  margin-top: 20px;
+}
+
+th {
+  text-align: center;
+}
+
+td {
+  display: inline-block;
+  margin: auto;
+}
+
+li:first-child {
+  margin-right: 140px;
+}
+
+
+#foodInput {
+  width: 300px;
+}
+
+
+/* Modal Content/Box */
+. modal-content, .modal-window {
+    background-color: #fefefe;
+    border: 1px solid #888;
+    width: 100%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close, .removeItem {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.removeItem:hover,
+.removeItem:focus,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.right{
+  margin-top:30px;
+}
+
+.addNewLogin{
+  display: inline-block;
+  padding: 32px 48px 0px 48px;
+  border: 1px solid #EEE;"
+}
+
+.loginLogo{
+  width:100px;
+  position:absolute;
+  top:30px;
+  right:50px;
+}
+
+.favoriteTrucks{
+  height:500px;
+}
+
+.loginInfo{
+  float:right;
+  height:10px;
+  margin-bottom:10px;
+  margin-left:10px;
+  color:powderblue;
+}
+
+nav .brand-logo {
+  top:0;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.showFavorites{
+  margin-left:20px;
+}
+
+.local{
+  margin-left:20px;
+  width:130px;
+}
