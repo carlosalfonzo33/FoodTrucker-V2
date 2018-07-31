@@ -24,8 +24,6 @@ App that will show you the location of nearby Food trucks in San Francisco that 
 
 ## Authors
 
-* **Jarrod Costopulos** 
-* **Jesse Stern** 
-* **Carlos Lopez** 
+
 
 
